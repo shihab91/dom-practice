@@ -64,6 +64,7 @@ a {
   min-height: 5vh;
   display: flex;
   justify-content: space-between;
+  margin-top: 2rem;
 }
 .form-todo input {
   min-height: 100%;
@@ -71,6 +72,8 @@ a {
 }
 .form-todo input[type="text"] {
   width: 78%;
+  padding: 0.8rem;
+  font-size: 1rem;
 }
 
 .form-todo input[type="submit"] {
@@ -78,4 +81,47 @@ a {
   background: rgb(44, 55, 63);
   color: white;
   font-weight: bold;
+}
+
+
+
+.section-signup{
+    margin-top:5rem;
+    text-align: center;
+    background-color: rgb(212, 209, 209);
+    padding: 2rem;
+}
+.signup-form{
+  max-width: 800px;
+  width: 95%;
+  margin: auto;
+  text-align: left;
+}
+.signup-form label{
+  display: block;
+}
+.signup-form input{
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+.signup-form textarea{
+  width: 100%;
+  border-radius: 5px;
+}
+.signup-btn{
+  font-size: 1.2rem;
+  padding: 0.7rem 2rem;
+  margin: auto;
+  display: block;
+  margin-top: 1rem;
+transition: all 0.3s;
+}
+.signup-btn:hover{
+  background: rgb(44, 55, 63);
+  color: white;
+}
+.form-group{
+  margin-top: 1rem;
 }
